@@ -1,21 +1,21 @@
 import React from 'react'
 
-function Social() {
+function Social ()  {
   return (
-    <div className='home_social'>
-        <a href='' className='home_social-icon' target='_blank'>
+    <div className="home_social">
+      <a href="" className="home_social-icon" target="_blank">
         <i class="uil uil-github"></i>
-        </a>
+      </a>
 
-        <a href='' className='home_social-icon' target='_blank'> 
+      <a href="" className="home_social-icon" target="_blank">
         <i class="uil uil-facebook"></i>
-        </a>
+      </a>
 
-        <a href='' className='home_social-icon' target='_blank'>
+      <a href=""  className="home_social-icon" target="_blank">
         <i class="uil uil-linkedin"></i>
-        </a>
+      </a>
     </div>
-  )
+  );
 }
 
 export default Social
