@@ -13,7 +13,7 @@
 }
 
 .home_img{
-    background: url(../../assets/Sans\ titre\ 17_20220930141047.png);
+    /* background: url(../../assets/Sans\ titre\ 17_20220930141047.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -105,6 +105,25 @@
         .home_img{
             order: initial;
             justify-self: initial;
+            box-shadow: inset 0 0 0 6px rgb(255, 255, 255 / 30%);
+            width: 200px;
+            height: 200px;
+        }
+        .home_date{
+            grid-column: 1/3;
         }
         
     } 
+        @media screen and (max-width: 368px){
+            .home_img{
+                width: 180px;
+                    height: 180px;
+                   
+                    
+            }
+        
+
+            *{
+                margin-left: 2px;
+            }
+        }
