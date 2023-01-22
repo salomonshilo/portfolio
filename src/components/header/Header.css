@@ -17,6 +17,7 @@ header{
  .nav_toggle {
      color      : var(--title-color);
      font-weight: var(--font-medium);
+     background-color: #fff;
  }
  .nav_list {
      display   : flex;
@@ -68,6 +69,7 @@ header{
 
     .show-menu{
       bottom: 0;
+      background-color: #fff;
     }
 
     .nav_list{
