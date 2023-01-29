@@ -1,0 +1,27 @@
+.essaie {
+
+    background-color: aqua;
+    height: 150px;
+    width: 250px;
+    
+    border-radius: 40px;
+   
+
+}
+
+.contain_realisation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+
+.my_realisation{
+    
+}
+
+.text_realisation {
+    font-size: small;
+}
+
