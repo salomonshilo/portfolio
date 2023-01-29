@@ -1,6 +1,7 @@
 import React from 'react'
 import "./App.css"
 import About from './components/about/About'
+import Contact from './components/contact/Contact'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Porfolio from './components/portfolio/Porfolio'
@@ -18,7 +19,8 @@ const App = () => {
         <About />
         <Skills />
         <Services />
-        <Porfolio/>
+        <Porfolio />
+        <Contact/>
       </main>
     </>
   )

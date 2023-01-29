@@ -46,3 +46,7 @@
     transform: translateX(00.25rem);
 }
 
+a {
+    color: var(--text-color);
+    font-size: smaller;
+}
