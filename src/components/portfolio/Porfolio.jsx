@@ -15,7 +15,10 @@ const Porfolio = () => {
           <img alt="" src={img2} className="image_realisation" />
           <p>Clone spotify</p>
           <span className=" services_button">
-            <a href="https://github.com/salomonshilo/"> Voir sur github</a>
+            <a href="https://github.com/salomonshilo/" className="text_github">
+              
+              Voir sur github
+            </a>
             <i
               className="uil uil-arrow-right 
             services_button-icon"
@@ -27,7 +30,9 @@ const Porfolio = () => {
           <img alt="" src={Img1} className="image_realisation" />
           <p>chat App</p>
           <span className="text_realisation services_button">
-            <a href="https://github.com/salomonshilo/"> Voir sur github</a>
+            <a href="https://github.com/salomonshilo/" className="text_github">
+              Voir sur github
+            </a>
             <i
               className="uil uil-arrow-right 
             services_button-icon"
@@ -39,7 +44,9 @@ const Porfolio = () => {
           <img alt="" src={img2} className="image_realisation" />
           <p>Landing page</p>
           <span className="text_realisation services_button">
-            <a href="https://github.com/salomonshilo/"> Voir sur github</a>
+            <a href="https://github.com/salomonshilo/" className="text_github">
+              Voir sur github
+            </a>
             <i
               className="uil uil-arrow-right 
             services_button-icon"
@@ -49,12 +56,13 @@ const Porfolio = () => {
       </div>
 
       <div className="contain_realisation">
-        {/* <img alt='' src='' className='image_realisation' /> */}
         <div className="my_realisation">
           <img alt="" src={Img1} className="image_realisation" />
           <p>Quiz App</p>
           <span className="text_realisation services_button">
-            <a href="https://github.com/salomonshilo/"> Voir sur github</a>
+            <a href="https://github.com/salomonshilo/" className="text_github">
+              Voir sur github
+            </a>
             <i
               className="uil uil-arrow-right 
             services_button-icon"
@@ -66,7 +74,9 @@ const Porfolio = () => {
           <img alt="" src={img2} className="image_realisation" />
           <p>Responsive porfolio</p>
           <span className="text_realisation services_button">
-            <a href="https://github.com/salomonshilo/"> Voir sur github</a>
+            <a href="https://github.com/salomonshilo/" className="text_github">
+              Voir sur github
+            </a>
             <i
               className="uil uil-arrow-right 
             services_button-icon"
@@ -78,7 +88,10 @@ const Porfolio = () => {
           <img alt="" src={Img1} className="image_realisation" />
           <p>Site maison jungle</p>
           <span className="text_realisation services_button">
-            <a href="https://github.com/salomonshilo/"> Voir sur github</a>
+            <a href="https://github.com/salomonshilo/" className="text_github">
+              {" "}
+              Voir sur github
+            </a>
             <i
               className="uil uil-arrow-right 
             services_button-icon"

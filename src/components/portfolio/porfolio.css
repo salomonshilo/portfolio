@@ -46,7 +46,7 @@
     transform: translateX(00.25rem);
 }
 
-a {
+.text_github{
     color: var(--text-color);
     font-size: smaller;
 }
